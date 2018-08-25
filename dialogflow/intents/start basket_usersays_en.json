@@ -1,0 +1,162 @@
+[
+  {
+    "id": "76a26e53-7fc0-42c4-9f67-2693109690b6",
+    "data": [
+      {
+        "text": "A ",
+        "userDefined": false
+      },
+      {
+        "text": "76Mbps bundle",
+        "alias": "broadband",
+        "meta": "@broadband",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1535281117
+  },
+  {
+    "id": "dcba9efb-0ea2-4f00-a4cc-2d12cdc643c2",
+    "data": [
+      {
+        "text": "A ",
+        "userDefined": false
+      },
+      {
+        "text": "Galaxy S9",
+        "alias": "mobile",
+        "meta": "@mobile",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1535281117
+  },
+  {
+    "id": "411d2647-6564-4d41-8a95-68b6d4e9ed5e",
+    "data": [
+      {
+        "text": "An ",
+        "userDefined": false
+      },
+      {
+        "text": "iPhone 8",
+        "alias": "mobile",
+        "meta": "@mobile",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1535281117
+  },
+  {
+    "id": "221a0d63-8975-4c19-86e6-71781e1f7ba8",
+    "data": [
+      {
+        "text": "I want a ",
+        "userDefined": false
+      },
+      {
+        "text": "38Mbps broadband bundle",
+        "alias": "broadband",
+        "meta": "@broadband",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1535281117
+  },
+  {
+    "id": "fd1abe35-82a8-4bf4-9203-ddc7e50a703a",
+    "data": [
+      {
+        "text": "I want a ",
+        "userDefined": false
+      },
+      {
+        "text": "250MB essential plan",
+        "alias": "sim",
+        "meta": "@SIM",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1535281117
+  },
+  {
+    "id": "abaf7d36-66ed-47c3-830a-1c76cbb3811d",
+    "data": [
+      {
+        "text": "I want an ",
+        "userDefined": false
+      },
+      {
+        "text": "iPhone X",
+        "alias": "mobile",
+        "meta": "@mobile",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1535299519
+  },
+  {
+    "id": "55887b26-55b2-4cb3-8d57-070c5c8d89ba",
+    "data": [
+      {
+        "text": "I want to buy a ",
+        "userDefined": false
+      },
+      {
+        "text": "250MB essential plan",
+        "alias": "sim",
+        "meta": "@SIM",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1535272767
+  },
+  {
+    "id": "a1a22adf-9b15-44cb-92c1-beef8253031f",
+    "data": [
+      {
+        "text": "I would like to make some ",
+        "userDefined": false
+      },
+      {
+        "text": "purchases",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1535265264
+  },
+  {
+    "id": "bb500135-1e67-49c4-ab90-5342f287e5fa",
+    "data": [
+      {
+        "text": "I would like to buy some ",
+        "userDefined": false
+      },
+      {
+        "text": "products",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1535271674
+  }
+]

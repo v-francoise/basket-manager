@@ -1,0 +1,4 @@
+runtime: python37
+api_version: 1
+entrypoint: gunicorn -b :$PORT basket_manager.app:app
+service: basket-manager

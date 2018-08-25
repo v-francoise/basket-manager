@@ -1,0 +1,54 @@
+{
+  "id": "c99234c8-df3b-41c3-8096-b0a270572cc4",
+  "parentId": "a6b294a4-849d-4862-85bd-a155b1f227d5",
+  "rootParentId": "a6b294a4-849d-4862-85bd-a155b1f227d5",
+  "name": "add broadband",
+  "auto": true,
+  "contexts": [
+    "basket-context",
+    "startbasket-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "startbasket.startbasket-custom",
+      "affectedContexts": [
+        {
+          "name": "basket-context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "startbasket-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "6664274b-ac52-460f-862c-acbc46d9b8ee",
+          "required": true,
+          "dataType": "@broadband",
+          "name": "broadband",
+          "value": "$broadband",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Okay, $broadband was added to your basket."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1535296613,
+  "fallbackIntent": false,
+  "events": []
+}

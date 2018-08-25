@@ -1,0 +1,38 @@
+[
+  {
+    "id": "b079b1b1-573a-44a6-8c70-79ab5a3f3bb5",
+    "data": [
+      {
+        "text": "A ",
+        "userDefined": false
+      },
+      {
+        "text": "1GB plan",
+        "alias": "sim",
+        "meta": "@SIM",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1535281429
+  },
+  {
+    "id": "ff66e714-2486-4c66-8c2e-fb5728e346a6",
+    "data": [
+      {
+        "text": "I want a ",
+        "userDefined": false
+      },
+      {
+        "text": "250MB Essentials plan",
+        "alias": "sim",
+        "meta": "@SIM",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1535281429
+  }
+]

@@ -1,0 +1,32 @@
+@startuml
+actor Customer as customer
+participant "Google Assistant" as chatbot
+participant "Dialogflow NLP engine" as nlp_engine
+participant "Cloud functions\nmiddleware" as middleware <<JavaScript>> #lightblue
+participant "Server side API" as backend <<Python>> #lightgreen
+
+== Create a basket ==
+customer -> chatbot : SAY:"I want to buy some products"
+chatbot -> nlp_engine: Capture input
+nlp_engine -> nlp_engine: Detect intent: "create basket()"
+nlp_engine -> middleware: request intent fulfillment
+middleware -> backend: Create basket (POST /baskets)
+backend -> backend: persist new basket
+backend -> middleware: basket data
+middleware -> nlp_engine: set context with basket +\nadd answer "Okay. What do you\nwish to buy?"
+nlp_engine -> chatbot: say "Okay. What do you\nwish to buy?"
+chatbot -> customer: "Okay. What do you\nwish to buy?"
+
+== Add a product (mobile) ==
+
+hnote over nlp_engine: Here we keep a context of the previous workflow to remember the basketId
+customer -> chatbot : SAY:"I want an iPhone X"
+chatbot -> nlp_engine: Capture input
+nlp_engine -> middleware: Detect intent:\n"add mobile($product="iPhone X", $basketId=1)"
+middleware -> backend: Add product to basket 1\n(POST /baskets/{id}/add)
+backend -> backend: persist product
+backend -> middleware: basket data
+middleware -> nlp_engine: add answer "iPhone X has been added to\nyour basket. Anything else?"
+nlp_engine -> chatbot: say [...]
+chatbot -> customer: [...]
+@enduml

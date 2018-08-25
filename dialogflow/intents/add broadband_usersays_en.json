@@ -1,0 +1,38 @@
+[
+  {
+    "id": "c07fa0d3-064b-4ad7-9352-59a2e3f4dcc2",
+    "data": [
+      {
+        "text": "I want to buy a ",
+        "userDefined": false
+      },
+      {
+        "text": "76 Mbps bundle",
+        "alias": "broadband",
+        "meta": "@broadband",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1535281659
+  },
+  {
+    "id": "c43c97cb-9182-458b-851c-50a665a0d19f",
+    "data": [
+      {
+        "text": "A ",
+        "userDefined": false
+      },
+      {
+        "text": "38 Mbps broadband bundle",
+        "alias": "broadband",
+        "meta": "@broadband",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1535281659
+  }
+]

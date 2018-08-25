@@ -1,0 +1,48 @@
+[
+  {
+    "value": "250MB plan",
+    "synonyms": [
+      "250MB plan",
+      "250MB Essentials plan",
+      "250MB Essentials plan - 12 months"
+    ]
+  },
+  {
+    "value": "500MB plan",
+    "synonyms": [
+      "500MB plan",
+      "500MB Essentials plan",
+      "500MB Essentials plan - 12 months"
+    ]
+  },
+  {
+    "value": "1GB plan",
+    "synonyms": [
+      "1GB plan",
+      "1GB Essentials plan",
+      "1GB Essentials plan - 12 months"
+    ]
+  },
+  {
+    "value": "2GB plan",
+    "synonyms": [
+      "2GB plan",
+      "2GB Red Extra plan",
+      "2GB Red Extra plan - 12 months"
+    ]
+  },
+  {
+    "value": "20GB plan",
+    "synonyms": [
+      "20GB plan",
+      "20GB Red Entertainment plan",
+      "20GB Red Entertainment plan - 12 months"
+    ]
+  },
+  {
+    "value": "250MB essential plan",
+    "synonyms": [
+      "250MB essential plan"
+    ]
+  }
+]

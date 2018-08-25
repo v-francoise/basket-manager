@@ -1,0 +1,20 @@
+[
+  {
+    "id": "2a5fe0e6-9558-4561-9683-4923b3f4af1d",
+    "data": [
+      {
+        "text": "I want an ",
+        "userDefined": false
+      },
+      {
+        "text": "iPhone X",
+        "alias": "mobile",
+        "meta": "@mobile",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1535281191
+  }
+]

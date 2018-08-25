@@ -1,0 +1,54 @@
+{
+  "id": "1b04ccc9-15f9-4c76-acf5-9d1082d71090",
+  "name": "add sim",
+  "auto": true,
+  "contexts": [
+    "basket-context",
+    "startbasket-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "startbasket.startbasket-custom",
+      "affectedContexts": [
+        {
+          "name": "startbasket-followup",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "basket-context",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f56ba692-7a4f-446c-bf23-a5ee6a618280",
+          "required": true,
+          "dataType": "@SIM",
+          "name": "sim",
+          "value": "$sim",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Okay, a $sim was added to your basket."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1535300317,
+  "fallbackIntent": false,
+  "events": []
+}

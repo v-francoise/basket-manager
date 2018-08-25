@@ -1,0 +1,45 @@
+{
+  "id": "ad6fa673-01ef-4b09-ae9d-8be0eb38273d",
+  "parentId": "a6b294a4-849d-4862-85bd-a155b1f227d5",
+  "rootParentId": "a6b294a4-849d-4862-85bd-a155b1f227d5",
+  "name": "pay",
+  "auto": true,
+  "contexts": [
+    "basket-context",
+    "startbasket-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "createBasket.createBasket-custom",
+      "affectedContexts": [
+        {
+          "name": "basket-context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "startbasket-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1535287638,
+  "fallbackIntent": false,
+  "events": []
+}

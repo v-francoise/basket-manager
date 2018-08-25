@@ -1,0 +1,5 @@
+pbr>=2.0 # Apache-2.0
+apistar
+daiquiri
+peewee
+apistar-cors-hooks

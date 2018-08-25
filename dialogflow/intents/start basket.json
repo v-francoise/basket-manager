@@ -1,0 +1,78 @@
+{
+  "id": "a6b294a4-849d-4862-85bd-a155b1f227d5",
+  "name": "start basket",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "basket-context",
+      "affectedContexts": [
+        {
+          "name": "basket-context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "startbasket-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a4a238ba-cd08-4e3d-b021-2611fe41c3d3",
+          "required": false,
+          "dataType": "@SIM",
+          "name": "sim",
+          "value": "$sim",
+          "isList": false
+        },
+        {
+          "id": "02bf841d-c3f9-4b60-8841-4b946fadb9e8",
+          "required": false,
+          "dataType": "@mobile",
+          "name": "mobile",
+          "value": "$mobile",
+          "isList": false
+        },
+        {
+          "id": "66783092-c26d-439f-ade4-7125378698f5",
+          "required": false,
+          "dataType": "@broadband",
+          "name": "broadband",
+          "value": "$broadband",
+          "isList": false
+        },
+        {
+          "id": "4617ad1a-fd38-490a-a888-7ad696e46935",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "basketId",
+          "value": "$basketId",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Okay, anything else?",
+            "Understood, what else do you wish to buy?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1535299519,
+  "fallbackIntent": false,
+  "events": []
+}

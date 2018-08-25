@@ -1,0 +1,54 @@
+{
+  "id": "8b267563-4bae-496b-84df-27619ef0d3b7",
+  "parentId": "a6b294a4-849d-4862-85bd-a155b1f227d5",
+  "rootParentId": "a6b294a4-849d-4862-85bd-a155b1f227d5",
+  "name": "add mobile",
+  "auto": true,
+  "contexts": [
+    "basket-context",
+    "startbasket-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "startbasket.startbasket-custom",
+      "affectedContexts": [
+        {
+          "name": "startbasket-followup",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "basket-context",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "820b6435-a89e-41fe-b366-f371c0733e36",
+          "required": false,
+          "dataType": "@mobile",
+          "name": "mobile",
+          "value": "$mobile",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Added"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1535296596,
+  "fallbackIntent": false,
+  "events": []
+}
