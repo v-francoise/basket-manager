@@ -80,6 +80,8 @@ made up of cloud functions that are all located in a single file under the
 
 ## Setup instructions
 
+All the code is available at https://github.com/v-francoise/basket-manager/.
+
 ### Server-side API deployment
 
 > NOTE: I did not finish the deployment of the server-side API however I will
@@ -98,20 +100,17 @@ Services to deploy:
 
 descriptor:      [<PROJECT_PATH>/app.yaml]
 source:          [<PROJECT_PATH>]
-target project:  [<GCLOUD_PROJECT_NAME>]
+target project:  [<GCLOUD_PROJECT>]
 target service:  [default]
 target version:  [20180829t232741]
-target url:      [https://<GCLOUD_PROJECT_NAME>.appspot.com]
+target url:      [https://<GCLOUD_PROJECT>.appspot.com]
 
 
 Do you want to continue (Y/n)?  
 
 Beginning deployment of service [default]...
 Created .gcloudignore file. See `gcloud topic gcloudignore` for details.
-╔════════════════════════════════════════════════════════════╗
-╠═ Uploading 9007 files to Google Cloud Storage             ═╣
-╚══════════════════════════════════════
-
+[...]
 ```
 
 ### Middleware deployment
@@ -134,6 +133,7 @@ activate the inline editor. Once enabled, copy/paste the content of
 the `apiHost` and the `apiPort` constants to match the endpoint for reaching
 the server-side API.
 
-In my case it should be:
+In my case, it should be somthing like:
 * apiHost: https://basket-manager-b17a2.appspot.com
 * apiPort: 8080
+
